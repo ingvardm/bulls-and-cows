@@ -57,13 +57,11 @@ function validateUserCombination(userInput, secretCombination) {
         }
     });
 
-    return {
-        b,
-        c,
-        win: b == secretCombination.length,
-        //TODO: add validation against adjasentValues rule
-        valid: true,
-    }
+    const win = b == secretCombination.length;
+    //TODO: add validation against adjasentValues rule
+    const valid = true;
+
+    return { b, c, win, valid }
 }
 
 module.exports = {

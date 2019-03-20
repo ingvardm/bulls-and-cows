@@ -4,6 +4,7 @@
   "description": "An open source bulls and cows game",
   "main": "bulls-and-cows.js",
   "scripts": {
+    "start": "node bulls-and-cows.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
